@@ -28,6 +28,8 @@ function greeding(hour) {
     console.log("Hello");
   } else if(hour >= 17) {
     console.log("Good Night");
+  } else {
+    console.log("Good Night");
   }
 }
 
@@ -53,7 +55,7 @@ function getDay(day) {
       console.log("Monday");
       break;
     case 2:
-      console.log("tuesday");
+      console.log("Tuesday");
       break;
     case 3:
       console.log("Wednesday");
